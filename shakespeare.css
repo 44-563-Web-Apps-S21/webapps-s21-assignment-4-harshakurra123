@@ -1,26 +1,32 @@
-p.speech {
+.speech {
     font-family: Arial;  
     color: black;
     font-size: 15px;
     }
 
-    p.stage-direction {
+    .stage-direction {
         font-family: Arial;  
         background-color: greenyellow;
         font-size: 15px;
         }
         
-        p.stage-direction:hover {
+        .stage-direction:hover {
             font-family: Arial;  
             color:greenyellow;
             background-color: coral;
             font-size: 15px;
             }
-            p.name {
+            .name {
                 font-family: Arial;  
                 color: black;
                 font-size: 15px;
                 }
+                .name:hover {
+                    text-shadow: -1px 0 black, 0 1px pink, 1px 0 blue, 0 -1px red;
+                    color:green;
+                    border-style: groove;
+                    }
+                    
                 .celia {
                     color:blueviolet;
                 }
